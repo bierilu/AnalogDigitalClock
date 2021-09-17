@@ -1,0 +1,79 @@
+body{
+    background-color: black;
+}
+
+#seperator{
+    width:10%;
+    height:100%;
+    float: left;
+    margin-right:2%;
+    position:relative;
+}
+
+#toppoint{
+    position:absolute;
+    top:30%;
+    left:25%;
+    width:50%;
+    height:10%;
+}
+
+#botpoint{
+    position:absolute;
+    bottom:30%;
+    left:25%;
+    width:50%;
+    height:10%;
+}
+
+.active{
+    background-color: #008000 ;
+}
+.inactive{
+    background-color: #808080;
+}
+
+
+.segment{
+    margin-top:2%;
+    display:table;
+    position: relative;
+    width: 20%;
+    height: 100%;
+    margin-right:2%;
+    float: left;
+}
+
+.last {
+    margin-right: 0px !important;
+}
+
+
+.horizontal{
+    height:2%;
+    width:90%;
+    margin-left:5%;
+    clip-path: polygon(0 50%, 20% 100%, 80% 100%, 100% 50%, 80% 0 , 20% 0);
+    background-color: green;
+}
+
+
+.vertical{
+    height:100%;
+    width:8%;
+    clip-path: polygon(50% 0, 100% 20%, 100% 80%, 50% 100%, 0 80%, 0 20%);
+    background-color: green;
+}
+
+.vertwrapper{
+    position: relative;
+    height:40%;
+}
+.right{
+    position: absolute;
+    right:0px;
+}
+.left{
+    position: absolute;
+    left:0px;
+}
